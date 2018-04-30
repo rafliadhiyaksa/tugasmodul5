@@ -25,6 +25,7 @@ public class Class2 {
             System.out.println("3. Lenovo");
             System.out.println("4. Acer");
             System.out.println("5. Macbook");
+            System.out.println("6. Msi");
             Scanner k = new Scanner(System.in);
             System.out.print ("Masukkan pilihan  : ");
             int pilihan = k.nextInt();
@@ -80,8 +81,15 @@ public class Class2 {
                     if (pesanan5 > 50) {
                         return "Pesanan "+ pesanan5 +" melebihi batas pembelian";
                     }
+                  case 6:
+                         Scanner p6 = new Scanner(System.in);
+                    System.out.print("Masukkan jumlah pesanan : ");
+                    int pesanan6 = p6.nextInt();
+                    if (pesanan6 > 50) {
+                        return "Pesanan "+ pesanan6 +" melebihi batas pembelian";
+                    }
                     else {
-                        return "Jumlah pesanan "+pesanan5+"\nTerimasih Telah Berbelanja di Toko Kami ";
+                        return "Jumlah pesanan "+pesanan6+"\nTerimasih Telah Berbelanja di Toko Kami ";
                     }
                 default:
                     System.out.println("Pilih pilihan diatas");
