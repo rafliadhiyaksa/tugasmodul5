@@ -18,7 +18,7 @@ public class Class2 {
             System.out.println();
             System.out.println("Program penjualan Laptop");
             System.out.println("===========================");
-            System.out.println("Stok Laptop yang tersedia");
+            System.out.println("Stok Laptop Yang Tersedia");
             System.out.println("===========================");
             System.out.println("1. ASUS");
             System.out.println("2. Dell");
